@@ -1,7 +1,4 @@
 # Professional Workflow Notes
-Concise, attractive, copy-paste ready README documenting a professional end-to-end workflow for software development and research publishing.
-
-> Note: replace `YOUR_USERNAME/YOUR_REPO` in badge links and commands with your GitHub username and repository name.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Docs](https://img.shields.io/badge/docs-Guide-green.svg)](docs/index.md) [![Release](https://img.shields.io/badge/release-v0.1-brightgreen.svg)](https://github.com/YOUR_USERNAME/YOUR_REPO/releases)
 
