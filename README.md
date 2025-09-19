@@ -16,16 +16,13 @@ Concise, attractive, copy-paste ready README documenting a professional end-to-e
 8. Task breakdown example (lane detection)
 9. Finish, release, and archive
 10. How AI can help at each stage (models + concrete prompts)
-11. Images to add and where
 12. Files and repo layout
-13. Quick publish checklist and Git commands
 14. Contributing and license
 
 # Quick summary
-This README explains a repeatable workflow from goal definition to delivery, including practical steps, tools, pros and cons, and concrete templates you can copy into issues, PRs, and docs. Use this as the main notes page so visitors see it when they open the repo.
+This README explains a repeatable workflow from goal definition to delivery, including practical steps, tools, pros and cons, and concrete templates you can copy into issues, PRs, and docs.
 
 # Visual overview
-Paste this Mermaid block into the README to render a flowchart on GitHub. If your viewer does not render Mermaid, export it as `images/workflow-overview.svg` and include the image file.
 
 ```mermaid
 flowchart TD
@@ -44,7 +41,6 @@ flowchart TD
 ```
 
 # 1. Step-by-step professional procedure
-Each step below is ready to paste into issue templates, PR templates, or team checklists.
 
 ## Step 1 - Define the goal
 - Output: one-paragraph goal + three measurable success criteria.
@@ -216,16 +212,13 @@ Add these images to `images/` and reference relatively in the README.
 
 If you cannot generate SVG, include PNG sized 800 to 1400 px wide.
 
-# 10. Files and repo layout (paste into your repo)
+# 10. Files:
 ```
 professional-workflow-notes/
 ├- README.md
 ├- LICENSE
 ├- CONTRIBUTING.md
 ├- images/
-│  ├- workflow-overview.svg
-│  ├- architecture.svg
-│  └- hero-screenshot.png
 ├- docs/
 │  └- index.md
 ├- src/
@@ -237,30 +230,6 @@ professional-workflow-notes/
       └- deploy-docs.yml
 ```
 
-# 11. Quick publish checklist and Git commands
-1. Create repo on GitHub or clone existing repo.
-2. Add this `README.md` at repo root.
-3. Add images to `images/`.
-4. Commit and push.
-
-Commands:
-```bash
-git init
-git add README.md images/ LICENSE CONTRIBUTING.md
-git commit -m "Add professional workflow README and assets"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
-```
-
-# 12. Contributing and license
-- Contributing: fork, create branch `feature/<name>`, open PR, include tests and update README if needed.
-- License: MIT recommended. Add `LICENSE` file with MIT text.
-
-# 13. Final notes and next steps you can copy
-- Replace badge links with actual URLs for your repo.
-- Export the Mermaid diagram to `images/workflow-overview.svg` if your target viewer does not render Mermaid.
-- Optional: create `docs/index.md` and an Actions workflow to publish docs to GitHub Pages.
 
 # Appendices: Useful small templates to copy
 
