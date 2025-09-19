@@ -1,0 +1,5 @@
+site_name: 'Professional Workflow Notes'
+nav:
+  - Home: index.md
+theme:
+  name: 'material'
